@@ -1,4 +1,15 @@
-# InfinBANK Android prototype
-Upload the project to a GitHub repository. GitHub Actions builds a debug APK automatically.
-Open **Actions → Build APK → latest run → Artifacts → InfinBANK-debug-apk**.
-PIN: `0000`.
+# InfinBANK Android mockup
+
+Чистый Android-проект, собранный с нуля для демонстрационного макета.
+
+## PIN
+`0000`
+
+## Сборка APK через GitHub
+1. Загрузите содержимое этой папки в корень нового GitHub-репозитория.
+2. Откройте **Actions → Build APK**.
+3. После зелёной галочки откройте запуск.
+4. В **Artifacts** скачайте `InfinBANK-APK`.
+5. В архиве находится `app-debug.apk`.
+
+Иконка приложения берётся из `InFin.png`.
